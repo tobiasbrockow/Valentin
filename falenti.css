@@ -25,6 +25,8 @@
     -ms-animation: showHide 12s ease-in alternate; /* IE10 */
     -o-animation: showHide 12s ease-in alternate; /* Opera */
     animation: showHide 12s ease-in alternate;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
 }
 @-webkit-keyframes showHide { /* Chrome, Safari */
     0% {width:100%}
